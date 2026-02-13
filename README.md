@@ -5,10 +5,10 @@ A responsive user management dashboard built with React.js that allows users to 
 📸 Screenshots
 
 Dashboard Page
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/1.jpg)
 
 User Details Page
-![User Details](./screenshots/user-details.png)
+![User Details](./screenshots/2.jpg)
 
 🚀 Features
 
