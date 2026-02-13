@@ -1,0 +1,149 @@
+.user-details {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.user-details-header {
+  border-bottom: 1px solid #e2e8f0;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.user-details-header-inner {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #64748b;
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #0f172a;
+}
+
+.user-details-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-details-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #1e293b;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.user-details-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.user-details-username {
+  color: #64748b;
+  margin: 4px 0 0;
+}
+
+.user-details-main {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.details-section {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+}
+
+.details-section h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 0 0 16px;
+}
+
+.details-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.details-row:last-child {
+  margin-bottom: 0;
+}
+
+.details-row svg {
+  width: 16px;
+  height: 16px;
+  color: #64748b;
+  flex-shrink: 0;
+}
+
+.details-sub-text {
+  color: #64748b;
+  font-size: 14px;
+  margin: 4px 0 0 28px;
+}
+
+.details-sub-text.italic {
+  font-style: italic;
+}
+
+.geo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.geo-item span {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.geo-item p {
+  margin: 4px 0 0;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.center-message {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.center-message a {
+  font-size: 14px;
+  color: #1e293b;
+  text-decoration: underline;
+}
