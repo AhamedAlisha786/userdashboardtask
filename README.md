@@ -27,25 +27,6 @@ User Details Page
 - Fetch API - Data fetching
 - CSS - Styling (mention which one you used)
 
-📁 Project Structure
-
-user-dashboard/
-├── src/
-│   ├── components/
-│   │   └── UserCard.jsx
-|   |   |_  createUserForm # Individual user card component
-│   ├── context/
-│   │   └── UserContext.jsx       # Context API for state management
-│   ├── pages/
-│   │   ├── index.jsx             # Dashboard page with user list
-│   │   └── UserDetails.jsx       # User details page
-│   ├── App.jsx                   # Main app component with routes
-│   └── main.jsx                  # Entry point
-├── public/
-├── screenshots/                  # Screenshots for README
-├── package.json
-└── README.md
-
 🎯 Component Overview
 
  1. UserContext.jsx (Context API)
